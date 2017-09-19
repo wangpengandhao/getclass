@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jianrong.js"></script>
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div id="box"></div>
+	<div>123</div>
+</body>
+<script>
+	window.onload=function(){
+	// var box=getClass('box');
+	// box[0].innerHTML='nide';	
+	// console.log(box);
+	$('.box')[1].innerHTML='你的';
+	$('#box').innerHTML='我的';
+	// [2].innerHTML='他的'
+	console.log($('div')[0])
+	}					
+</script>
+<!-- 参数说明
+	$(select)
+	$('.one')
+	$('#one')
+	$('div')
+
+
+ -->
+</html>
